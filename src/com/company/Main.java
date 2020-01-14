@@ -20,8 +20,7 @@ public class Main {
         }
     }
     public static  void main(String[] args) throws IOException {
-	// write your code here
-        int count = 0;
+	    // write your code here
         List<String> lines = Files.readAllLines(Paths.get("input.txt"), StandardCharsets.UTF_8);
         for(String line: lines){
             System.out.println(line);
