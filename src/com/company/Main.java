@@ -61,12 +61,11 @@ public class Main {
         System.out.println("Введите номер элемента:");
         Scanner scanner=new Scanner(System.in);
         int index=scanner.nextInt();
+
         if (index>=0 && index< lines.size()) {
             System.out.println(index);
-            //System.out.println(lines(0));
-            //for(int i=0; i<lines.size();i++){
-            //    System.out.println(lines(i));
-            //}
+            System.out.println(lines.get(0));
+
         }
 
 
